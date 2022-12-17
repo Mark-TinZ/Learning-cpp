@@ -1,5 +1,3 @@
-#include <iostream>
-
 int sumDigits(int num)
 {
     int sum = 0;
@@ -11,13 +9,4 @@ int sumDigits(int num)
     }
     
     return sum;
-}
-
-int main( void )
-{
-    int x;
-
-    std::cin >> x;
-
-    std::cout << sumDigits(x) << "\n";
 }
